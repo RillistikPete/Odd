@@ -7,8 +7,7 @@ namespace SVM_ScratchPractice
         static void Main(string[] args)
         {
             int i = 0;
-			int[] arr   = new int[100000];
-			
+			int[] arr = new int[100000];
 			Console.WriteLine("Print all odd numbers between l and r.");
             Console.WriteLine("Enter first number (l):");
             int l = int.Parse(Console.ReadLine());
